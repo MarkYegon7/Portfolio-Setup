@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #6070ff;
+  font-weight: 700;
+  font-size: 4.8vw;
+  margin: 0;
+  padding: 0;
+  margin-left: 25px;
+}
+
+.logo {
+  height: 1.688rem;
+  width: 8.125rem;
+}
+
+.image-icon {
+  height: 3.438rem;
+  width: 3.125rem;
+  margin-top: 1%;
+  margin-bottom: 0;
+  color: #6070ff;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 3.125rem;
+  line-height: 3.25rem;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 2rem;
+}
+
+.intro {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 6.25rem;
+  font-size: 16px;
+  line-height: 1.5rem;
+  color: #344563;
+  flex: none;
+  flex-grow: 0;
+  margin-bottom: 20px;
+}
+
+.lets-connect {
+  width: 9.375rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 110%;
+  line-height: 1.5rem;
+  color: #7f8cff;
+  display: flex;
+  order: 0;
+  flex-grow: 0;
+}
+
+.social-buttons {
+  display: flex;
+  margin-top: 4%;
+  margin-right: 6.25rem;
+  list-style-type: none;
+  align-items: center;
+}
+
+.social-buttons li {
+  margin-right: 12px;
+}
+
+.icons {
+  border-left: 100px;
+  margin-left: 1%;
+  margin-right: 4%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.all-body {
+  display: flex;
+  flex-direction: column;
+  padding: 7rem 1.5rem;
+  border-radius: 0 0 0 80px;
+  background-color: white;
+  height: 430px;
+}
+
+#body-cover {
+  border: 0;
+  background-image:
+    url('images/Rectangle\ 6.svg'),
+    url('images/Ellipse\ 11.svg'),
+    url('images/Ellipse\ 12.svg'),
+    url('images/Ellipse\ 13.svg'),
+    url('images/Ellipse\ 15.svg'),
+    url('images/Ellipse\ 3.svg'),
+    url('images/Ellipse\ 4.svg'),
+    url('images/Ellipse\ 5.svg'),
+    url('images/Rectangle\ 4.svg'),
+    url('images/Rectangle\ 5.svg'),
+    url('images/Rectangle\ 7.svg');
+  background-position:
+    0% 1%,
+    0% 4.1%,
+    90% 87%,
+    88% 90%,
+    12% 95%,
+    100% 6.5%,
+    55% 99%,
+    50% 7%,
+    100% 1%,
+    50% 101%,
+    52% 6%;
+  background-repeat: no-repeat;
+}

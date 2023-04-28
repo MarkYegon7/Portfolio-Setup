@@ -12,10 +12,18 @@ body {
 .header-logo {
   display: flex;
   justify-content: space-between;
-  margin-left: 0.1%;
   align-items: center;
   background-color: #fff;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #6070ff;
+  font-weight: 700;
+  font-size: 4.8vw;
+  margin: 0;
   padding: 0;
+  margin-left: 25px;
 }
 
 .logo {
@@ -27,7 +35,6 @@ body {
   height: 3.438rem;
   width: 3.125rem;
   margin-top: 1%;
-  margin-right: 11%;
   margin-bottom: 0;
   color: #6070ff;
 }
@@ -54,7 +61,6 @@ body {
   line-height: 1.5rem;
   color: #344563;
   flex: none;
-  order: 1;
   flex-grow: 0;
   margin-bottom: 20px;
 }
@@ -93,13 +99,12 @@ body {
 }
 
 .all-body {
+  display: flex;
+  flex-direction: column;
   padding: 7rem 1.5rem;
   border-radius: 0 0 0 80px;
   background-color: white;
-  overflow: hidden;
   height: 430px;
-  z-index: -1;
-  position: relative;
 }
 
 #body-cover {

@@ -15,6 +15,7 @@ body {
   margin-left: 0.1%;
   align-items: center;
   background-color: #fff;
+  padding: 0;
 }
 
 .logo {
@@ -104,6 +105,7 @@ body {
 #body-cover {
   border: 0;
   background-image:
+    url('images/Rectangle\ 6.svg'),
     url('images/Ellipse\ 11.svg'),
     url('images/Ellipse\ 12.svg'),
     url('images/Ellipse\ 13.svg'),
@@ -115,7 +117,8 @@ body {
     url('images/Rectangle\ 5.svg'),
     url('images/Rectangle\ 7.svg');
   background-position:
-    1% 0.1%,
+    0% 1%,
+    0% 4.1%,
     90% 87%,
     88% 90%,
     12% 95%,

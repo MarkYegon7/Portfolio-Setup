@@ -448,7 +448,7 @@ ul.description {
 }
 
 .alternative {
-  width: 67vw;
+  width: 70vw;
 }
 
 .language-container {
@@ -464,7 +464,7 @@ ul.description {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 85%;
+  width: 88%;
 }
 
 .frame {

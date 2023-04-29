@@ -359,9 +359,9 @@ ul.description {
 }
 
 .about {
-  width: 1.875rem;
   margin-bottom: 0.938rem;
   margin-top: 3.125rem;
+  margin-left: 0;
   font-size: 2.5rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 900;
@@ -379,7 +379,11 @@ ul.description {
 .connect-1 {
   height: 3.125rem;
   color: #7f8cff;
-  font-size: 1.25rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .icons-1 {
@@ -416,6 +420,12 @@ ul.description {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   margin-bottom: 25px;
+}
+
+#languages-23 {
+  background-image: url('images/Union-down.svg');
+  background-repeat: no-repeat;
+  background-position: 15rem;
 }
 
 .language-icons {

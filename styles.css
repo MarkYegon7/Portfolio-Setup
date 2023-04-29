@@ -440,10 +440,15 @@ ul.description {
   align-items: center;
   background-color: #f7f7f9;
   padding: 9px 12px;
+  border-radius: 12px;
 }
 
 .language-icons li p {
   margin-left: 16px;
+}
+
+.alternative {
+  width: 67vw;
 }
 
 .language-container {
@@ -457,8 +462,9 @@ ul.description {
 
 .languages-below li {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
+  width: 85%;
 }
 
 .frame {

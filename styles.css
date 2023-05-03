@@ -217,7 +217,6 @@ ul.description {
 }
 
 .more-info {
-  width: 18.438rem;
   margin-bottom: 15px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -512,6 +511,7 @@ ul.description {
   display: flex;
   flex-direction: column;
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 .Contact {
@@ -523,7 +523,7 @@ ul.description {
   font-family: 'Poppins', system-ui, Courier, monospace;
   font-style: normal;
   color: #fff;
-  position: absolute;
+  position: relative;
   margin-top: 4.375rem;
   padding-left: 2.813rem;
 }
@@ -536,9 +536,8 @@ ul.description {
   color: #ebebff;
   text-align: center;
   margin-bottom: 2.5rem;
-  position: absolute;
-  margin-top: 9.375rem;
-  width: 20.438rem;
+  position: relative;
+  margin-top: 4%;
   height: 6.375rem;
   line-height: 1.875rem;
 }
@@ -554,7 +553,7 @@ ul.description {
 }
 
 form {
-  margin-top: 18.75rem;
+  margin-top: 7%;
   display: flex;
   flex-direction: column;
 }
@@ -568,12 +567,10 @@ form input {
   border-radius: 8px;
   background: #fff;
   height: 3rem;
-  width: 20.438rem;
 }
 
 #email {
   height: 3rem;
-  width: 20.438rem;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
 }
@@ -646,7 +643,6 @@ textarea {
   font-size: 15px;
   padding-top: 10px;
   border-radius: 8px;
-  width: 327px;
   height: 170px;
   margin-bottom: 20px;
   margin-top: 20px;

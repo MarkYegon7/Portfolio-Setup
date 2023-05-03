@@ -19,7 +19,7 @@
 
 # 📖 Portfolio Setup <a name="about-project"></a>
 
-Portfolio Setup is an activity created on the first week to show the knowledge we have grasped
+Portfolio Setup is an activity created on the first and second week to show the knowledge we have grasped
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -34,6 +34,7 @@ The project is to determine the basic knowledge one has in git,HTML5,CSS,CSS Gri
     <li>CSS</li>
     <li>Flexbox</li>
     <li>Figma</li>
+    <li>CSS Grid</li>
   </ul>
 </details>
 

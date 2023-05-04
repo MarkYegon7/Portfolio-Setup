@@ -724,3 +724,21 @@ textarea::placeholder {
   top: 93%;
   left: 35%;
 }
+
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 100%;
+  }
+
+  .dsk-header-logo {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    background-color: #fff;
+    padding-top: 1.875rem;
+  }
+
+  .image-icon {
+    display: none;
+  }
+}

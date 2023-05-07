@@ -394,6 +394,7 @@ ul.description {
 }
 
 .icons-2 {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -485,7 +486,7 @@ ul.description {
   background-image: url('images/Union.svg');
   background-repeat: no-repeat;
   background-position: 18rem;
-} */
+}  */
 
 .skills {
   font-family: 'Poppins', sans-serif;
@@ -730,15 +731,175 @@ textarea::placeholder {
     max-width: 100%;
   }
 
+  .header-logo h2 {
+    display: flex;
+    flex: 1;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
   .dsk-header-logo {
     display: flex;
+    flex: 1;
     justify-content: space-between;
     padding-left: 20px;
     background-color: #fff;
     padding-top: 1.875rem;
   }
 
+  .dsk-header-logo ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 28%;
+    padding-right: 28%;
+  }
+
+  #body-cover {
+    background-image: url('images/Header\ bg.svg');
+    background-position: 10% 10%;
+    padding-bottom: 10rem;
+    border-left: 2rem solid white;
+    min-height: 30rem;
+    border-bottom: 6rem solid white;
+    /* border: 2px solid red; */
+  }
+
   .image-icon {
     display: none;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+    margin-top: 8.438rem;
+  }
+
+  .works {
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    max-width: 82%;
+    margin-left: 14rem;
+  }
+
+  .works2 {
+    grid-template-columns: 0.5fr 1fr reverse;
+  }
+
+  .tonic-1 {
+    display: block;
+    padding: 24px 24px 24px;
+  }
+
+  .tonic {
+    display: none;
+  }
+
+  .myself {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+  }
+
+  .languages-below {
+    padding-top: 50px;
+    margin-left: 40px;
+  }
+
+  .language-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .language-icons li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul.description {
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+    margin-left: 2%;
+    margin-right: 150px;
+    gap: 1rem;
+  }
+
+
+  .contact-form {
+    background-image: url('images/contact\ form\ background\ shapesdesktop.svg');
+    padding: 20px;
+    background-position: 32% 43%;
+  }
+
+  .form-1 {
+    padding-left: 241px;
+    margin-left: 379px;
+    margin-top: 2rem;
+    padding-bottom: 5rem;
+  }
+
+  #name {
+    height: 48px;
+    width: 432px;
+    padding-left: 1rem;
+  }
+
+  #email {
+    height: 48px;
+    width: 432px;
+    padding-left: 1rem;
+  }
+
+  textarea {
+    width: 447px;
+    height: 170px;
+  }
+
+  .icons-1 {
+    margin-left: 0rem;
+    margin-right: 20rem;
+  }
+
+  .icons-2 {
+    display: flex;
+    margin-right: 1rem;
+  }
+
+  .application {
+    width: 28.438rem;
+  }
+
+  .hr {
+    display: none;
+  }
+
+  #frame-1 {
+    background-position: 47rem;
+  }
+
+  #skill-1 {
+    background-position: 47rem;
+  }
+
+  .button3 {
+    margin-left: 10rem;
+  }
+
+
+  .ABOUT {
+    display: grid;
   }
 }

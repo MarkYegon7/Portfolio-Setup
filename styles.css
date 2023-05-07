@@ -734,7 +734,7 @@ textarea::placeholder {
   .header-logo h2 {
     display: flex;
     flex: 1;
-    font-family: 'Poppins';
+    font-family: 'Poppins', system-ui, Courier, monospace;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -750,7 +750,7 @@ textarea::placeholder {
     padding-top: 1.875rem;
   }
 
-  .dsk-header-logo ul{
+  .dsk-header-logo ul {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -763,11 +763,11 @@ textarea::placeholder {
   #body-cover {
     background-image: url('images/Header\ bg.svg');
     background-position: 10% 10%;
+    background-size: cover;
+    margin: 0;
     padding-bottom: 10rem;
-    border-left: 2rem solid white;
-    min-height: 30rem;
-    border-bottom: 6rem solid white;
-    /* border: 2px solid red; */
+    min-height: 25rem;
+    padding-left: 9%;
   }
 
   .image-icon {
@@ -781,7 +781,6 @@ textarea::placeholder {
     display: flex;
     align-items: center;
     letter-spacing: 0.37px;
-    margin-top: 8.438rem;
   }
 
   .works {
@@ -837,7 +836,6 @@ textarea::placeholder {
     gap: 1rem;
   }
 
-
   .contact-form {
     background-image: url('images/contact\ form\ background\ shapes.svg');
     padding: 20px;
@@ -869,7 +867,7 @@ textarea::placeholder {
   }
 
   .icons-1 {
-    margin-left: 0rem;
+    margin-left: 0;
     margin-right: 20rem;
   }
 
@@ -897,7 +895,6 @@ textarea::placeholder {
   .button3 {
     margin-left: 10rem;
   }
-
 
   .ABOUT {
     display: grid;

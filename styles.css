@@ -329,7 +329,18 @@ ul.description {
   margin-top: 70px;
 }
 
-
+.works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2.313rem;
+  margin-bottom: 1.875rem;
+  margin-left: 1rem;
+  border: 0.063rem solid rgb(209, 205, 205);
+  border-radius: 25px;
+  padding-bottom: 28px;
+  background-color: white;
+}
 
 .about-myself {
   background-color: #fff;

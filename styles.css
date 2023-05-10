@@ -511,6 +511,7 @@ ul.description {
 .form-1 {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -525,8 +526,7 @@ ul.description {
   font-style: normal;
   color: #fff;
   position: relative;
-  margin-top: 4.375rem;
-  padding-left: 2.813rem;
+  margin: 4.375rem 0 0 0;
 }
 
 .application {
@@ -557,6 +557,7 @@ form {
   margin-top: 7%;
   display: flex;
   flex-direction: column;
+  width: 87.2vw;
 }
 
 form input {

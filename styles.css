@@ -179,6 +179,7 @@ h2 {
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-right: 12px;
 }
 
 .back {

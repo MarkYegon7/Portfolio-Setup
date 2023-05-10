@@ -783,6 +783,10 @@ textarea::placeholder {
     letter-spacing: 0.37px;
   }
 
+  .works-container {
+    width: 80vw;
+  }
+
   .works {
     /* display: flex;
     flex-direction: row; */

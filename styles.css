@@ -846,6 +846,12 @@ body {
     margin-right: 0;
   }
 
+  .application {
+    padding-left: 377px;
+    padding-right: 387px;
+    width: 40vw;
+  }
+
   .contact-form {
     background: url('images/contact\ form\ background\ shapes.svg') no-repeat;
     background-size: auto;
@@ -853,5 +859,24 @@ body {
     border-radius: 100px 0 0 0;
     background-color: #6070ff;
     margin-top: 4rem;
+  }
+
+  .form-1 {
+    padding-left: 104px;
+    padding-right: 18px;
+  }
+
+  form {
+    margin-top: 1px;
+    width: 42%;
+    margin-bottom: 4rem;
+  }
+
+  .button3 {
+    margin-left: 32%;
+  }
+
+  .hr {
+    display: none;
   }
 }

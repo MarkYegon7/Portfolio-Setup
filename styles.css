@@ -23,8 +23,9 @@ body {
     width: 100vw;
   }
 
-  .tonic:hover {
+  .header-logo h2:hover {
     transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
   }
 
   h2 {

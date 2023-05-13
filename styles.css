@@ -23,7 +23,7 @@ body {
     width: 100vw;
   }
 
-  .header-logo h2:hover {
+  h2.header-logo:hover {
     transform: rotate(360deg);
     transition: all 0.3s ease-in-out 0s;
   }

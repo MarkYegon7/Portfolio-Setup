@@ -23,6 +23,11 @@ body {
     width: 100vw;
   }
 
+  h2.header-logo:hover {
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+  }
+
   h2 {
     font-family: 'Poppins', sans-serif;
     color: #6070ff;

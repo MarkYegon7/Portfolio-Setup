@@ -23,6 +23,10 @@ body {
     width: 100vw;
   }
 
+  .tonic:hover {
+    transform: rotate(360deg);
+  }
+
   h2 {
     font-family: 'Poppins', sans-serif;
     color: #6070ff;

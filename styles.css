@@ -750,11 +750,13 @@ body {
     height: 65px;
     z-index: 10;
     position: relative;
-
-    /* background-color: red; */
   }
 
   /*
+  .header-logo nav {
+    display: none;
+  } */
+
   .image-icon {
     display: none;
   }
@@ -763,7 +765,7 @@ body {
     color: #344563;
     display: flex;
     justify-content: space-between;
-    font-family: 'Poppins';
+    font-family: 'Poppins', system-ui, Courier, monospace;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -791,7 +793,6 @@ body {
   #body-cover {
     /* background: red; */
     background-image: url('images/Header\ bg.svg');
-    background-size: cover;
     padding: 0;
     position: relative;
     height: calc(100vh - 65px);

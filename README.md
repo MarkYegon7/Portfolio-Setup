@@ -45,6 +45,12 @@ The project is to determine the basic knowledge one has in git,HTML5,CSS,CSS Gri
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+https://markyegon7.github.io/Portfolio-Setup/
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 💻 Getting Started <a name="getting-started">To get started you need to clone the repository</a>
 

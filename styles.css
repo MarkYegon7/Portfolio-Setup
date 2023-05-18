@@ -829,7 +829,7 @@ body {
     display: none;
   }
 
-  h2 {
+  h2 .LOGO {
     font-family: 'Poppins', system-ui, Courier, monospace;
     color: #6070ff;
     font-weight: 700;

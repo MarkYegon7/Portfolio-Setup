@@ -13,4 +13,4 @@ function closeMenu() {
 
 hamburgerMenu.addEventListener('click', clickOn);
 clickButton.addEventListener('click', closeMenu);
-
+navigationNav.forEach((each) => each.addEventListener('click', closeMenu));

@@ -163,8 +163,36 @@ projectButtons.forEach((button)=>{
   })
 })
 
-
-
+const body = document.querySelector('body');
+const openModal = document.querySelectorAll('.project-card button, .multi-post-nav');
+openModal.forEach((button) => {
+  button.addEventListener('click', () => {
+    const popSection = document.createElement('div');
+    const popUp = document.createElement('div');
+    popUp.innerHTML = `
+  
+  `;
+    popSection.appendChild(popUp);
+    body.appendChild(popSection);
+    const popCloseButton = popSection.querySelector('.pop-close');
+    popCloseButton.addEventListener('click', () => {
+      popSection.remove();
+    });
+  });
+});
+/* --------------------Form Validation------------------------*/
+const form = document.querySelector('.form');
+const errorElement = document.querySelector('.error-message');
+form.addEventListener('submit', (event) => {
+  const emailInput = document.getElementById('mail');
+  const emailValue = emailInput.value;
+  if (emailValue !== emailValue.toLowerCase()) {
+    errorElement.textContent = 'Email must be in lowercase';
+    const submitButton = document.querySelector('.getintouch');
+    submitButton.parentNode.insertBefore(errorElement, submitButton);
+    event.preventDefault();
+  }
+});
 
 // let projectContainer;
 
